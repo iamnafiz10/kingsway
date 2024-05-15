@@ -1,33 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: "Source Sans 3", sans-serif !important;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.selected {
+    color: #04406F;
+    border-bottom: 2px solid #04406F;
+}
+
+/*------------------- Mobile Menu -------------------*/
+#mobile_menu {
+    position: fixed;
+    top: 0;
+    left: -1000px;
+    transition: 0.3s ease-in-out;
+}
+
+.show_menu {
+    left: 0 !important;
 }

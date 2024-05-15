@@ -1,0 +1,9 @@
+{
+  "logo": "/assets/images/logo.svg",
+  "menu": [
+    "Home",
+    "About",
+    "Services",
+    "Contact"
+  ]
+}
