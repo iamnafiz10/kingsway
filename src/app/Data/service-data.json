@@ -1,0 +1,42 @@
+{
+  "Section": "OUR SERVICES",
+  "Title": "What We Provide",
+  "service_list": [
+    {
+      "service_Image": "/assets/images/s1.png",
+      "tag": "1",
+      "title": "Financial Strategy",
+      "content": "We develop tailored strategies that align with your personal goals and adapt to life’s changes, ensuring a secure financial future."
+    },
+    {
+      "service_Image": "/assets/images/s2.png",
+      "tag": "2",
+      "title": "Tax Planning",
+      "content": "Help you capitalize on tax benefits, reduce liabilities, and ensure compliance with current tax laws, aligning seamlessly with your financial objectives."
+    },
+    {
+      "service_Image": "/assets/images/s3.png",
+      "tag": "3",
+      "title": "Investment Planning",
+      "content": "From stocks to bonds to alternative assets, our comprehensive investment planning services are designed to optimize your portfolio’s performance according to your risk tolerance and investment goals."
+    },
+    {
+      "service_Image": "/assets/images/s4.png",
+      "tag": "4",
+      "title": "Property Coaching",
+      "content": "Navigate the property market with confidence. Our coaching services equip you with the knowledge and strategies needed to make informed real estate decisions."
+    },
+    {
+      "service_Image": "/assets/images/s5.png",
+      "tag": "5",
+      "title": "Financial Coaching",
+      "content": "Enhance your financial literacy and decision-making skills. Our coaching sessions provide you with the tools to understand complex financial concepts and make smarter financial choices."
+    },
+    {
+      "service_Image": "/assets/images/s6.png",
+      "tag": "6",
+      "title": "Cash Flow Management",
+      "content": "Understand and maximize your cash flow. Our expert guidance helps you manage day-to-day finances efficiently, paving the way for financial growth."
+    }
+  ]
+}

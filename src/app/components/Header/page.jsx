@@ -46,11 +46,11 @@ function Page() {
         <>
             <section id="header-section" className="relative">
                 <header
-                    className={`lg:flex py-6 lg:py-4 lg:bg-white w-full fixed lg:relative z-50 ${isHeaderVisible ? '' : 'bg-black'}`}>
+                    className={`lg:flex py-6 bg-white w-full fixed lg:relative z-50 ${isHeaderVisible ? '' : 'bg-black'}`}>
                     <div className="container flex items-center justify-between">
                         <div className="logo">
                             <Link href='/'>
-                                <Image className="h-full sm:h-[35px] w-[100] sm:w-full" width={100} height={100}
+                                <Image className="h-full sm:h-[45px] w-[100] sm:w-full" width={100} height={100}
                                        src={logo} alt="Logo"/>
                             </Link>
                         </div>
@@ -62,7 +62,7 @@ function Page() {
                                         {menu.map((item, index) => (
                                             <li key={index} className="list-none">
                                                 <Link href="/"
-                                                      className="active text-black font-[500] hover:text-primary transition">{item}</Link>
+                                                      className="active text-[18px] uppercase text-black font-[500] hover:text-primary transition">{item}</Link>
                                             </li>
                                         ))}
                                     </div>

@@ -1,0 +1,19 @@
+{
+  "Section": "ABOUT US",
+  "Title": "We Offer tailored plans for financial security & long-term wealth",
+  "Intro": "Welcome to Kingsway Investment – your pathway to comprehensive financial planning and robust investment solutions tailored to meet the demands of your financial well-being.",
+  "about_list": [
+    {
+      "title": "Mission",
+      "content": "There are many variations words passages of Lorem Ipsum don't available, but the majority."
+    },
+    {
+      "title": "Vision",
+      "content": "To be the trusted leader in financial services, recognized for our integrity, innovation, and ability to transform the financial futures of the individuals and families we serve."
+    },
+    {
+      "title": "Values",
+      "content": "Commitment to excellence, transparency in communication, and unwavering dedication to the financial success of our clients."
+    }
+  ]
+}

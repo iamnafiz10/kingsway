@@ -7,22 +7,25 @@ function Page() {
         <>
             <section id="home-page-section">
                 <div className="container_full pt-[80px] lg:pt-0">
-                    <div className="video_wrap w-full h-[400px] md:h-[520px] relative">
+                    <div className="video_wrap w-full h-[400px] md:h-[90vh] relative">
                         <video autoPlay muted loop style={{width: '100%', height: '100%', objectFit: 'cover'}}>
                             <source src="/assets/images/hero.mp4" type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                         <div
-                            className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-[0.7]">
-                            <div className="bg-primary px-8 py-3 rounded-[3px] rounded-tl-[20px] rounded-br-[20px]">
-                                <h2 className="text-white text-[15px] md:text-[22px] font-bold">
-                                    {Highlight}
-                                </h2>
+                            className="absolute inset-0 flex flex-col items-center justify-center bg-[#010449] bg-opacity-[0.8]">
+                            <div className="flex items-center">
+                                <div className="bg-primary px-8 py-3 border-r border-black">
+                                    <h2 className="text-white text-[15px] md:text-[22px] font-bold">
+                                        {Highlight}
+                                    </h2>
+                                </div>
+                                <div className="triangle w-[47px] md:w-[57px]"></div>
                             </div>
                             <h1 className="text-[35px] md:text-[65px] mt-1 font-bold text-white">
                                 {Heading}
                             </h1>
-                            <p className="text-white font-[16px] text-center mx-4 md:mx-0">
+                            <p className="text-white text-[20px] leading-9 text-center mx-4 md:mx-0">
                                 {Subheading}<br/>
                                 and Advisory Services.
                             </p>
