@@ -28,11 +28,9 @@ body {
 
 /*------ Button triangle Design --------*/
 .triangle {
-    /*width: 55px;*/
-    /*height: 10px;*/
     aspect-ratio: 1;
     clip-path: polygon(0 0, 100% 0, 0 100%);
-    background: linear-gradient(45deg, #04406F, #04406F);
+    background: linear-gradient(45deg, #2DC55F, #2DC55F);
 }
 
 /*------- Services section design ---------*/
@@ -40,6 +38,13 @@ body {
     aspect-ratio: 1;
     border-bottom-right-radius: 2px;
     clip-path: polygon(100% -216%, 0% 100%, 100% 100%);
+}
+
+/*---------- Why us section design --------*/
+.triangle-whyus {
+    aspect-ratio: 1;
+    border-bottom-right-radius: 2px;
+    clip-path: polygon(-100% -1200%, 0% 229%, 124% -70%);
 }
 
 /*---------- Media Query ---------*/

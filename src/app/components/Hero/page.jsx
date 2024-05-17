@@ -13,7 +13,7 @@ function Page() {
                             Your browser does not support the video tag.
                         </video>
                         <div
-                            className="absolute inset-0 flex flex-col items-center justify-center bg-[#010449] bg-opacity-[0.8]">
+                            className="absolute inset-0 flex flex-col items-center justify-center bg-[#1F2C3C] bg-opacity-[0.9]">
                             <div className="flex items-center">
                                 <div className="bg-primary px-8 py-3 border-r border-black">
                                     <h2 className="text-white text-[15px] md:text-[22px] font-bold">
@@ -30,7 +30,7 @@ function Page() {
                                 and Advisory Services.
                             </p>
                             <button type='button'
-                                    className="mt-4 py-3 px-10 bg-secondary text-white text-[16px] font-semibold rounded">
+                                    className="mt-4 py-3 px-10 bg-primary text-white text-[16px] font-semibold rounded">
                                 {button}
                             </button>
                         </div>

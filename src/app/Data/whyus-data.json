@@ -1,0 +1,24 @@
+{
+  "Section": "OUR ADVANTAGES",
+  "Title": "Why Choose Kingsway Investment:",
+  "whyus_list": [
+    {
+      "whyus_icon": "ti-lock",
+      "tag": "01",
+      "title": "Tailored Financial Strategies",
+      "content": "We provide customized financial planning and investment solutions that are specifically tailored to meet the unique needs and goals of each client, ensuring personalized attention and a fit that truly supports your financial aspirations."
+    },
+    {
+      "whyus_icon": "ti-bar-chart-alt",
+      "tag": "02",
+      "title": "Expertise and Experience",
+      "content": "With a team of seasoned financial professionals and a robust track record, we leverage deep industry knowledge and practical experience to deliver superior financial advice and results."
+    },
+    {
+      "whyus_icon": "ti-pie-chart",
+      "tag": "03",
+      "title": "Comprehensive Support",
+      "content": "From the initial consultation through to the implementation of your financial plan and beyond, we offer continuous support and education, helping you make informed decisions and adapt to changes in your financial landscape."
+    }
+  ]
+}
