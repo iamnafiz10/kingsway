@@ -10,7 +10,7 @@ function Page() {
         <>
             <section id="footer-section" className="bg-[#0E162B] mt-10">
                 <div className="container pt-10 pb-6 text-white">
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div className="col">
                             <div className="logo flex items-start">
                                 <Link href='/'>
