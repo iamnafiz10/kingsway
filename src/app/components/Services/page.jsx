@@ -7,7 +7,7 @@ function Page() {
     const {Section, Title, service_list} = serviceData;
     return (
         <>
-            <section id="services-section" className="mt-16 relative"
+            <section id="services-section" className="mb-[6rem] relative"
                      style={{backgroundImage: `url(${ServicesBg.src})`}}>
                 <div className="absolute inset-0 bg-black bg-opacity-10"></div>
                 <div className="container pt-16 pb-16 relative z-10">
@@ -29,7 +29,7 @@ function Page() {
                             <div key={index} className="col">
                                 <div className="relative group">
                                     <div
-                                        className="box bg-white hover:bg-[#DBF5E4] h-full xl:h-[280px] py-4 pl-6 rounded">
+                                        className="box bg-white hover:bg-[#DBF5E4] h-full md:h-[320px] xl:h-[280px] py-4 pl-6 rounded">
                                         <div className="flex items-center justify-between">
                                             <Image src={item.service_Image} width={100} height={100}
                                                    className="w-14 group-hover:stock-white" alt="serviceOne"/>

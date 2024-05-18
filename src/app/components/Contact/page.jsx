@@ -3,7 +3,7 @@ import React from 'react';
 function Page() {
     return (
         <>
-            <section id="contact-section" className='bg-[#0B1A31] mt-10'>
+            <section id="contact-section" className='bg-[#0B1A31]'>
                 <div className="container py-8">
                     <h1 className="text-white text-center text-[40px] font-bold">Contact Us</h1>
 

@@ -8,7 +8,7 @@ function Page() {
     const {logo, description, quick_link, our_service, copyright} = footerData;
     return (
         <>
-            <section id="footer-section" className="bg-[#0E162B] mt-10">
+            <section id="footer-section" className="bg-[#0E162B] mt-[6rem]">
                 <div className="container pt-10 pb-6 text-white">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div className="col">

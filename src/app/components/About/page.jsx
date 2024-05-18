@@ -19,7 +19,7 @@ function Page() {
                          backgroundImage: `url(${Aboutbg.src})`,
                      }}
             >
-                <div className="container pt-12">
+                <div className="container py-[6rem]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-20">
                         <div className="col lg:col-span-5">
                             <Image src={AboutImg} alt="AboutImg"/>

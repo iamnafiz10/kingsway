@@ -6,7 +6,7 @@ function Page() {
     const {body, cta} = bannerData;
     return (
         <>
-            <section id="banner-section" className="mt-10 relative text-white"
+            <section id="banner-section" className="relative text-white"
                      style={{
                          backgroundImage: `url(${BannerBg.src})`,
                          backgroundColor: "#000F21",

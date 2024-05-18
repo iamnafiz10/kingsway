@@ -7,15 +7,14 @@ function Page() {
         <>
             <section id="home-page-section">
                 <div className="container_full pt-[80px] lg:pt-0">
-                    <div className="video_wrap w-full h-[400px] md:h-[90vh] relative">
+                    <div className="video_wrap w-full h-[400px] md:h-[80vh] relative">
                         <video autoPlay muted loop style={{width: '100%', height: '100%', objectFit: 'cover'}}>
                             <source src="/assets/images/hero.mp4" type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                         <div
                             style={{
-                                backgroundColor: 'rgb(0 15 32)',
-                                opacity: '0.9'
+                                backgroundColor: 'rgba(0, 15, 32, 0.9)',
                             }}
                             className="absolute inset-0 flex flex-col items-center justify-center">
                             <div className="flex items-center">

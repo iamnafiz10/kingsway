@@ -29,7 +29,7 @@ function Page(props) {
                          background: "rgba(3,18,41,0.56)",
                      }}
                 ></div>
-                <div className="relative z-10 full mt-10 py-16">
+                <div className="relative z-10 full mt-[6rem] py-16">
                     <div className="container">
                         {/* Head wrap */}
                         <div className="head_wrap flex flex-col items-center text-center">

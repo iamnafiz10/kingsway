@@ -5,7 +5,6 @@ import WhyUs from '../app/components/WhyUs/page';
 import Testimonial from './components/Testimonial/page';
 import Banner from './components/Banner/page';
 import Contact from './components/Contact/page';
-import Footer from './components/Footer/page';
 
 export default function Home() {
     return (
@@ -17,7 +16,6 @@ export default function Home() {
             <Testimonial/>
             <Banner/>
             <Contact/>
-            <Footer/>
         </>
     );
 }

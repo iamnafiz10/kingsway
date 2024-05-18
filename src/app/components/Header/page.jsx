@@ -5,8 +5,10 @@ import {AiOutlineClose} from "react-icons/ai";
 import {HiOutlineBars3} from "react-icons/hi2";
 import Image from "next/image";
 import navbarData from "../../Data/navbar-data.json";
+import {usePathname} from 'next/navigation';
 
 function Page() {
+    const pathname = usePathname();
     // 👇️ Toggle class on click Show Menu Bar (Button)
     const ClickShowMenuBar = () => {
         const nav = document.getElementById('mobile_menu');
@@ -59,12 +61,19 @@ function Page() {
                             <div className="container flex">
                                 <div className="navbar-items flex items-center justify-between flex-grow pl-12">
                                     <div className="flex items-center space-x-10 capitalize">
-                                        {menu.map((item, index) => (
-                                            <li key={index} className="list-none">
-                                                <Link href="/"
-                                                      className="active text-[18px] uppercase text-black font-[500] hover:text-primary transition">{item}</Link>
-                                            </li>
-                                        ))}
+                                        {menu.map((item, index) => {
+                                            const linkPath = item === "Home" ? "/" : `/${item.toLowerCase()}`;
+                                            const isActive = pathname === linkPath;
+                                            return (
+                                                <li key={index} className="list-none">
+                                                    <Link href={linkPath}>
+                                                        <h4 className={`text-[18px] uppercase font-[500] hover:text-primary transition ${isActive ? 'text-primary' : 'text-black'}`}>
+                                                            {item}
+                                                        </h4>
+                                                    </Link>
+                                                </li>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             </div>
