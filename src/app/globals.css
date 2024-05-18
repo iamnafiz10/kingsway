@@ -47,6 +47,11 @@ body {
     clip-path: polygon(-100% -1200%, 0% 229%, 124% -70%);
 }
 
+/*--------------- Slider design ------------*/
+.swiper {
+    /*overflow: visible !important;*/
+}
+
 /*---------- Media Query ---------*/
 @media only screen and (max-width: 992px) {
     #about-section {

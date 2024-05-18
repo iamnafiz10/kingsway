@@ -1,0 +1,21 @@
+{
+  "Section": "Testimonials",
+  "title": "What Clients Says",
+  "testimonials": [
+    {
+      "tImage": "/assets/images/t1.jpg",
+      "name": "Jackson T.",
+      "description": "Partnering with Kingsway Investment was the best decision for my family's financial future. Their team not only helped us create a robust financial plan but also educated us throughout the process. We've never felt more confident and secure in our financial decisions. Highly recommend!"
+    },
+    {
+      "tImage": "/assets/images/t2.jpg",
+      "name": "Paul J.",
+      "description": "The professionalism and expertise at Kingsway Investment are unparalleled. They provided tailored solutions that perfectly matched my financial goals and needs. Thanks to them, I am well on my way to achieving my retirement dreams."
+    },
+    {
+      "tImage": "/assets/images/t3.jpg",
+      "name": "Linda H.",
+      "description": "Kingsway Investment has been instrumental in helping me navigate complex investment landscapes and tax planning. Their comprehensive approach and ongoing support have been invaluable. I appreciate their commitment to transparency and integrity in all our interactions."
+    }
+  ]
+}

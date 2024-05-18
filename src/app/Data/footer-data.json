@@ -1,0 +1,19 @@
+{
+  "logo": "/assets/images/logo-white.svg",
+  "description": "Kingsway Investment: Your Journey to Financial Freedom Starts Here with Our Expert Financial Coaching and Advisory Services.",
+  "quick_link": [
+    "Home",
+    "About",
+    "Services",
+    "Contact"
+  ],
+  "our_service": [
+    "Financial Strategy",
+    "Tax Planning",
+    "Investment Planning",
+    "Property Coaching",
+    "Financial Coaching",
+    "Cash Flow Management"
+  ],
+  "copyright": "Copyrights © 2024"
+}

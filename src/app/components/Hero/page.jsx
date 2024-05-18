@@ -13,9 +13,13 @@ function Page() {
                             Your browser does not support the video tag.
                         </video>
                         <div
-                            className="absolute inset-0 flex flex-col items-center justify-center bg-[#1F2C3C] bg-opacity-[0.9]">
+                            style={{
+                                backgroundColor: 'rgb(0 15 32)',
+                                opacity: '0.9'
+                            }}
+                            className="absolute inset-0 flex flex-col items-center justify-center">
                             <div className="flex items-center">
-                                <div className="bg-primary px-8 py-3 border-r border-black">
+                                <div className="bg-primary px-8 py-3">
                                     <h2 className="text-white text-[15px] md:text-[22px] font-bold">
                                         {Highlight}
                                     </h2>
