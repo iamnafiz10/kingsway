@@ -1,6 +1,7 @@
 import React from 'react';
 import BannerBg from "../../../../public/assets/images/banner-bg.png";
 import bannerData from "../../Data/banner-data.json";
+import Link from "next/link";
 
 function Page() {
     const {body, cta} = bannerData;
@@ -25,10 +26,10 @@ function Page() {
                                 </h2>
                             </div>
                             <div className="col lg:col-span-3 block lg:flex justify-end">
-                                <button type='button'
-                                        className="mt-4 py-3 px-10 bg-primary text-white text-[16px] font-semibold rounded">
+                                <Link href='/contact' type='button'
+                                      className="mt-4 py-3 px-10 bg-primary text-white text-[16px] font-semibold rounded">
                                     {cta}
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

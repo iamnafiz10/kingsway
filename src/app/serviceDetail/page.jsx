@@ -53,7 +53,6 @@ function ServiceDetail() {
                                                 <p className="mt-2 text-[18px] text-pgcolor pr-6 pb-4">
                                                     {section.description}
                                                 </p>
-                                                <hr/>
                                             </div>
                                         ))}
                                     </div>

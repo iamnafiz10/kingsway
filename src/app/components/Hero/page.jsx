@@ -1,5 +1,6 @@
 import React from 'react';
 import heroData from "../../Data/hero-data.json";
+import Link from "next/link";
 
 function Page() {
     const {Highlight, Heading, Subheading, button} = heroData;
@@ -18,13 +19,13 @@ function Page() {
                             }}
                             className="absolute inset-0 flex flex-col items-center justify-center">
                             <div className="flex items-center">
-                                <div className="bg-primary px-8 py-2 border-r border-secondary">
-                                    <h2 className="text-white text-[15px] md:text-[22px] font-bold">
+                                <div className="relative">
+                                    <div className="trapezoid w-[320px] md:w-[470px]">
+                                    </div>
+                                    <h4 className="absolute top-1/2 -left-[5%] transform -translate-y-1/2 w-full text-[15px] md:text-[22px] font-bold text-white text-center">
                                         {Highlight}
-                                    </h2>
+                                    </h4>
                                 </div>
-                                {/*<div className="triangle w-[47px] md:w-[57px]"></div>*/}
-                                <div className="trapezoid"></div>
                             </div>
                             <h1 className="text-[35px] md:text-[65px] mt-1 font-bold text-white">
                                 {Heading}
@@ -33,10 +34,10 @@ function Page() {
                                 {Subheading}<br/>
                                 and Advisory Services.
                             </p>
-                            <button type='button'
-                                    className="mt-4 py-3 px-10 bg-primary text-white text-[16px] font-semibold rounded">
+                            <Link href='/about' type='button'
+                                  className="mt-4 py-3 px-10 bg-primary text-white text-[16px] font-semibold rounded">
                                 {button}
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
