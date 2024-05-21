@@ -18,12 +18,13 @@ function Page() {
                             }}
                             className="absolute inset-0 flex flex-col items-center justify-center">
                             <div className="flex items-center">
-                                <div className="bg-primary px-8 py-3">
+                                <div className="bg-primary px-8 py-2 border-r border-secondary">
                                     <h2 className="text-white text-[15px] md:text-[22px] font-bold">
                                         {Highlight}
                                     </h2>
                                 </div>
-                                <div className="triangle w-[47px] md:w-[57px]"></div>
+                                {/*<div className="triangle w-[47px] md:w-[57px]"></div>*/}
+                                <div className="trapezoid"></div>
                             </div>
                             <h1 className="text-[35px] md:text-[65px] mt-1 font-bold text-white">
                                 {Heading}

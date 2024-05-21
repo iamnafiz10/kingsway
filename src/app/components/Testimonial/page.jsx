@@ -29,8 +29,8 @@ function Page(props) {
                          background: "rgba(3,18,41,0.56)",
                      }}
                 ></div>
-                <div className="relative z-10 full mt-[6rem] py-16">
-                    <div className="container">
+                <div className="relative z-10 full">
+                    <div className="container py-[6rem]">
                         {/* Head wrap */}
                         <div className="head_wrap flex flex-col items-center text-center">
                             <div className="flex items-center gap-2">

@@ -4,7 +4,7 @@ function Page() {
     return (
         <>
             <section id="contact-section" className='bg-[#0B1A31]'>
-                <div className="container py-8">
+                <div className="container py-[6rem]">
                     <h1 className="text-white text-center text-[40px] font-bold">Contact Us</h1>
 
                     <div className="mt-4 block lg:flex w-full items-center justify-center gap-4">

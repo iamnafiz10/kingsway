@@ -16,8 +16,8 @@ function Page() {
                      }}
             >
                 <div className="absolute w-full h-full opacity-50"></div>
-                <div className="relative z-10 py-16">
-                    <div className="container">
+                <div className="relative z-10">
+                    <div className="container py-[6rem]">
                         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center justify-between">
                             <div className="col lg:col-span-9">
                                 <h2 className="text-[25px] font-semibold">

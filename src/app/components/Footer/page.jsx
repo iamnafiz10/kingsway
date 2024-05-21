@@ -8,8 +8,8 @@ function Page() {
     const {logo, description, quick_link, our_service, copyright} = footerData;
     return (
         <>
-            <section id="footer-section" className="bg-[#0E162B] mt-[6rem]">
-                <div className="container pt-10 pb-6 text-white">
+            <section id="footer-section" className="bg-[#0E162B]">
+                <div className="container pt-[6rem] pb-[1.5rem] text-white">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <div className="col">
                             <div className="logo flex items-start">

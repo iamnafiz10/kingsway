@@ -11,11 +11,6 @@ function Page() {
     return (
         <>
             <PageHero/>
-            <About/>
-            <Services/>
-            <WhyUs/>
-            <Testimonial/>
-            <Banner/>
             <Contact/>
         </>
     );

@@ -6,9 +6,9 @@ function Page() {
     const {Section, Title, whyus_list} = whyusData;
     return (
         <>
-            <section id="why-us-section" className="relative h-full lg:h-[350px] bg-[#000F21] bg-opacity-100"
+            <section id="why-us-section" className="relative h-full lg:h-[400px] bg-[#000F21] bg-opacity-100"
                      style={{backgroundImage: `url(${whyUsBg.src})`}}>
-                <div className="container pt-16 pb-16 relative z-10">
+                <div className="container py-[6rem] relative z-10">
                     <div className="grid grid-cols-1">
                         <div className="flex items-center gap-2">
                             <div className="w-[40px] h-[2px] bg-primary"></div>
@@ -24,7 +24,7 @@ function Page() {
                 </div>
             </section>
 
-            <div className="container mt-12 lg:-mt-[120px]">
+            <div className="container py-[6rem] mt-0 lg:-mt-[195px]">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-0">
                     {whyus_list.map((item, index) => (
                         <div key={index} className="col">

@@ -90,7 +90,6 @@ function Page() {
                         </div>
                     </div>
                 </header>
-
                 {/* Mobile Menu */}
                 <div id="mobile_menu" className="block lg:hidden bg-white z-50 overflow-hidden w-[300px] h-[100%]">
                     <div className="head flex items-center justify-between px-8 pt-8">

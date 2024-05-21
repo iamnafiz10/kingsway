@@ -1,29 +1,7 @@
-"use client";
 import React from 'react';
-import PageHeroBg from "../../../../public/assets/images/page-hero.jpg";
-import {usePathname} from "next/navigation";
+import PageHeroBg from "../../../public/assets/images/page-hero.jpg";
 
-function Page() {
-    const pathname = usePathname();
-
-    // Define the heading text based on the current pathname
-    let headingText;
-    switch (pathname) {
-        case '/about':
-            headingText = 'About Us';
-            break;
-        case '/services':
-            headingText = 'Services';
-            break;
-        case '/contact':
-            headingText = 'Contact Us';
-            break;
-        case '/':
-            headingText = 'Home';
-            break;
-        default:
-            headingText = 'Page';
-    }
+function ServiceDetail() {
     return (
         <>
             <section id="page-hero-section" className="relative text-white"
@@ -38,7 +16,7 @@ function Page() {
                 <div className="relative z-10 flex items-center justify-center">
                     <div className="container pt-[135px] lg:pt-[90px] h-[250px]">
                         <h1 className="text-[40px] font-bold">
-                            {headingText}
+                            Service Details Name
                         </h1>
                     </div>
                 </div>
@@ -47,4 +25,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default ServiceDetail;
