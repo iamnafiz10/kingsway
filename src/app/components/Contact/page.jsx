@@ -56,11 +56,9 @@ function Page() {
                             <div className="input_box w-full">
                                 <input
                                     type="text"
-                                    placeholder="Name"
                                     className="w-full bg-[#0B3967] py-3 px-6 rounded focus:outline-0 border-none shadow-none text-white"
                                     id="username"
                                     name="name"
-                                    type="text"
                                     placeholder="Name"
                                     value={formData.name}
                                     onChange={handleChange}
